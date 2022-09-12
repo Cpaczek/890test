@@ -1,5 +1,5 @@
 module.exports = function verifyEmail(email){
-    console.log("remove this log to demonstrate git different change test")
+    console.log("changed on master")
     let re = /\S+@\S+\.\S+/;
     return re.test(email);
 }
